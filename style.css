@@ -27,3 +27,17 @@
     color: #333333;            /* 文字色：真っ黒を避ける */
     text-align: justify;       /* 両端揃え */
 }
+
+/* =================================================
+   3. リストの設定
+   ================================================= */
+.custom-list {
+    list-style: none;          /* デフォルトの「●」を消す */
+    padding-left: 0;           /* 左側の余白をリセット */
+}
+
+.custom-list li {
+    border-bottom: 1px solid #ccc; /* 下線をつける */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
