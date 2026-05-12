@@ -41,3 +41,28 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* =================================================
+   4. ボックスモデルの設定
+   ================================================= */
+.box-sample {
+    width: 300px;         /* 幅 */
+    height: auto;         /* 高さは中身に合わせる */
+    background-color: hsl(0, 0%, 99%);
+    
+    /* 余白の使い分け */
+    padding: 50px;        /* 内側の余白：文字と枠の間 */
+    border: 10px solid #d8a2b2; /* 枠線 */
+    margin: 20px auto;    /* 外側の余白：上下に40px、左右中央揃え */
+}
+
+.display-test {
+    background-color: #fff8bf; /* 薄い赤（色の範囲を分かりやすく） */
+    border: 2px solid #a7b5fb;  /* 赤い枠線 */
+    
+    /* ボックスモデルの設定 */
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
